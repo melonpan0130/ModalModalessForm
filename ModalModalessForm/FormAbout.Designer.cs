@@ -45,13 +45,13 @@
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("맑은 고딕", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
             this.label1.Location = new System.Drawing.Point(12, 269);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(112, 25);
+            this.label1.Size = new System.Drawing.Size(313, 32);
             this.label1.TabIndex = 1;
             this.label1.Text = "3117 정은주";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FormAbout
             // 
@@ -70,7 +70,6 @@
             this.Text = "FormAbout";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
